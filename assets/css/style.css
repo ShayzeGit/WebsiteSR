@@ -1,0 +1,15 @@
+nav {
+    margin: auto;
+    padding: 0 10%;
+    background-color: crimson;
+
+}
+
+nav ul li{
+    display: flex;
+}
+
+nav ul{
+    flex-direction: column;
+}
+

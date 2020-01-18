@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.HrVQHXy0bnF0Thk38ww1-QHaEo&pid=Api&P=0&w=274&h=172");
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Tahoma, geneva, Verdana, sans-serif;
+}
+.form{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+}
+.titre{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.form p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+.form input, select{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form input[type=text] , .form input[type=number] , .form input[type=email]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+
+}
